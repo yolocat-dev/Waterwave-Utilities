@@ -1,5 +1,7 @@
+require('dotenv').config()
+
 module.exports = {
-    token: "OTI5NzkyNzYyMDY3NDM5Njk2.Ydse_Q.m4b6ur0cvOiUpwYV8jur-DrIxsY",
+    token: process.env.BOT_TOKEN,
     topggToken: "", // keep empty if bot is not uploaded to top.gg. Get api key at https://top.gg/bot/BOT ID HERE/webhooks
     stats: {
         enabled: false,
